@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+li {
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.menu {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 15%;
+    background-color: rgb(207, 186, 64);
+    padding-top: 20px;
+}
+
+img {
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 10em
+}
+.header {
+    margin: 20px 20px;
+    background-color: rgb(255, 255, 255);
+    min-height: 150px;
+}
+
+.conteudo {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+.content {
+    
+    background-color: rgb(255, 255, 255);
+    min-height: 200px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(207, 186, 64);
+    height: 160px;
+    margin: 20px 20px;
+}
+
+.contato {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.botao {
+    display: block;
+    margin: 50px auto 20px auto;
+    background-color: rgb(207, 186, 64);
+    border-radius: 10px;
+    border-color: rgb(207, 186, 64);
+    border-style: dotted;
+    padding: 20px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+legend {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+table {
+    margin: 20px auto 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+
+}
+tr td {
+    padding: 10px;
+}
+
+label {
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+button {
+    color: white;
+    background-color: rgb(207, 186, 64);
+    border-radius: 10px;
+    border-color: rgb(207, 186, 64);
+    border-style: dotted;
+    padding: 20px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.endereco {
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
